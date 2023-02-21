@@ -1,0 +1,38 @@
+.footer-up{
+    display: flex;
+    align-items: center;
+}
+.footer-icon{
+  height: 50px !important;
+  width: 50px !important;
+    color: black;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 20px;
+}
+.footer-up >h2 {
+    font-size: 30px;
+}
+.footer-down{
+    display: flex;
+    background-color:  rgb(70, 131, 184);
+    height: 40vh;
+    width: 97%;
+    margin: 0 20px;
+    color: white;
+    font-size: 22px;
+    flex-wrap: wrap;
+}
+.footer-down-col{
+display:flex;
+flex-direction: column;
+margin-right: 50px;
+flex: 0.25;
+
+}
+.footer-down-col > a {
+    margin-top: 15px;
+}
+a:visited{
+    color: white;
+}

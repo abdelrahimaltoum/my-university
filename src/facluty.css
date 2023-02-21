@@ -1,0 +1,26 @@
+.facluty{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.facluty > img {
+    width: 400px;
+    height: 500px;
+    object-fit: contain;
+    flex: 0.4;
+}
+.facluty > h3 {
+    flex: 0.1;
+    font-size: 20px;
+    color: rgb(70, 131, 184);
+}
+.facluty > p {
+    flex: 0.5;
+    font-size: 20px;
+}
+.facluty:hover{
+    cursor: pointer;
+}

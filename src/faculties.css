@@ -1,0 +1,12 @@
+.faculties {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

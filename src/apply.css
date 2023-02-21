@@ -1,0 +1,89 @@
+.apply{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+     margin-bottom: 30px;
+    
+ }
+ 
+ .apply-form{
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+     box-shadow: 7px 7px 7px 10px lightblue;
+ }
+ .form-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+ }
+ .apply-form > a{
+     background-color:rgb(70, 131, 184);
+     color: white !important;
+     margin-top: 20px !important;
+     text-align: center !important;
+     border-radius: 10px !important;
+     margin-bottom: 10px;
+ }
+ .text {
+     width: 250px ;
+     height: 30px;
+     border-radius: 7px;
+     flex: 0.5;
+     font-size: 24px;
+   
+ }
+ .apply-form >button:hover {
+     background-color:rgb(70, 131, 184);
+     color: white;
+ }
+
+ .form-row > a:hover{
+     text-decoration: none !important;
+ }
+ .apply > img {
+     width: 400px;
+     height: 150px;
+ object-fit: contain;
+ }
+ .first{
+    margin-right: 30px;
+ }
+ .form-row > label {
+    font-size: 22px;
+    
+ }
+ .form-row > h3 {
+    margin-right: 7px;
+    margin-left: 10px;
+    
+ }
+ .gender{
+    font-size: 15px;
+    flex: 0.2;
+ }
+ .form-row > p {
+    font-size: 20px;
+ }
+ .form-row > select {
+    height: 30px;
+    font-size: 22px;
+    margin-left: 10px;
+ }
+ .gender-label{
+    flex: 0.2 !important;
+ }
+ #male , #female {
+   display: flex;
+    flex: 0.1;
+ }
+ span > label{
+    font-size: 24px ;
+    
+ }
+ span > input {
+    margin-right: 20px;
+ }

@@ -1,0 +1,28 @@
+.articals{
+display: flex;
+flex-direction: column;
+margin-right: 12px;
+margin-left: 50px;
+}
+.artical-image{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    flex: 0.3;
+}
+
+.articals > p {
+    font-size: 28px;
+    flex: 0.4;
+    
+}
+.articals > a{
+    color: blue;
+    font-size: 24px;
+    flex: 0.1;
+    
+}
+.articals > h2 {
+    font-size: 32px;
+    flex: 0.2;
+}

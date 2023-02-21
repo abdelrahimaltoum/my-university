@@ -1,0 +1,33 @@
+.profile{
+    display: flex;
+    text-align: center;
+    margin-left: 15%;
+    box-shadow: 7px 7px 7px 10px lightblue;
+    height: 80vh;
+    flex-direction: column;
+    width: 75%;
+    margin-top: 30px;
+    justify-content: left;
+}
+.profile-row{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.avatar{
+    width: 250px !important;
+    height: 250px !important;
+    border-radius: 50%;
+}
+.profile-row > h2{
+    margin-top: 7%;
+    font-size: 40px;
+    margin-left: 50px;
+   
+}
+.profile-row > h4 {
+    font-size: 35px;
+}

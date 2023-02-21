@@ -1,0 +1,42 @@
+.home-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    width: 100%;
+    height: 40vh;
+    flex-direction: column;
+    font-weight: 600;
+}
+.home-header > P {
+    font-size: 40px;
+   text-align: center;
+   width: 75%;
+}
+.home-artical-row {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.icons-row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.icons-button{
+    height: 50px !important;
+    width: 300px !important;
+    background-color: teal !important;
+    color: white !important;
+    border-radius: 10px !important;
+    flex-direction: row !important;
+    margin-left: 55% !important;
+    margin-top: 10px !important;
+}
+.icon-button-div{
+    display: flex ;
+    width: 75% ;
+    align-items: center ;
+    
+
+}
