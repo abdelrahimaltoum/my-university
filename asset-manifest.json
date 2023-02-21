@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-univesity/static/css/main.03761cd3.css",
+    "main.js": "/my-univesity/static/js/main.377c487c.js",
+    "static/js/787.ae16f472.chunk.js": "/my-univesity/static/js/787.ae16f472.chunk.js",
+    "index.html": "/my-univesity/index.html",
+    "main.03761cd3.css.map": "/my-univesity/static/css/main.03761cd3.css.map",
+    "main.377c487c.js.map": "/my-univesity/static/js/main.377c487c.js.map",
+    "787.ae16f472.chunk.js.map": "/my-univesity/static/js/787.ae16f472.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03761cd3.css",
+    "static/js/main.377c487c.js"
+  ]
+}
