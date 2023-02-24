@@ -32,6 +32,7 @@ flex: 0.25;
 }
 .footer-down-col > a {
     margin-top: 15px;
+    color: white;
 }
 a:visited{
     color: white;

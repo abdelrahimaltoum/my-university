@@ -14,13 +14,8 @@
 .header-logo{
     width: 70px;
     height: 35px;
-    margin-right: 10px;
+    margin-right: 5px;
     object-fit: contain;
-}
-a {
-    margin-right: 15px;
-    margin-left: 10px;
-    text-decoration: none;
 }
 
 .header-middle {
@@ -44,12 +39,19 @@ align-items: center;
    align-items: center;
    display: flex;
 }
- a:hover{
-    text-decoration: underline;
-    font-weight: 600;
-    cursor: pointer;
-}
+ 
 .header-right{
     flex: 0.1;
     align-items: center;
+}
+.header-left > a , .header-middle > a , .header-right > a {
+    margin-right: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+.header-left > a:hover , .header-middle > a:hover , .header-right > a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
 }
